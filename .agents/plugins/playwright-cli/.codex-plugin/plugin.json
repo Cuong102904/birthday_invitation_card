@@ -1,0 +1,18 @@
+{
+  "name": "playwright-cli",
+  "version": "0.1.0",
+  "description": "Playwright CLI plugin",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Playwright CLI",
+    "shortDescription": "Use Playwright CLI in Codex.",
+    "longDescription": "Playwright CLI adds a local Codex plugin scaffold.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me use Playwright CLI."
+  }
+}

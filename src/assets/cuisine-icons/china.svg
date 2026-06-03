@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Chinese hot pot illustration">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fee2e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="48" fill="url(#g)"/>
+  <circle cx="400" cy="300" r="190" fill="#fee2e2" opacity=".75"/>
+  <rect x="250" y="235" width="300" height="190" rx="90" fill="#7f1d1d"/>
+  <rect x="275" y="260" width="250" height="140" rx="70" fill="#dc2626"/>
+  <circle cx="400" cy="330" r="70" fill="#fff7ed" opacity=".92"/>
+  <path d="M240 250h320" stroke="#b45309" stroke-width="16" stroke-linecap="round"/>
+  <path d="M270 215l-45-70" stroke="#9f1239" stroke-width="14" stroke-linecap="round"/>
+  <path d="M530 215l45-70" stroke="#9f1239" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="335" cy="320" r="20" fill="#f59e0b"/>
+  <circle cx="455" cy="305" r="24" fill="#fb7185"/>
+  <circle cx="420" cy="365" r="18" fill="#facc15"/>
+  <circle cx="365" cy="390" r="16" fill="#f97316"/>
+</svg>

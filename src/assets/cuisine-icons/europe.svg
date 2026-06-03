@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="European dining illustration">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="48" fill="url(#g)"/>
+  <circle cx="400" cy="300" r="184" fill="#fff" opacity=".58"/>
+  <circle cx="400" cy="320" r="150" fill="#f97316"/>
+  <circle cx="400" cy="320" r="128" fill="#fb923c"/>
+  <path d="M400 210l120 205H280z" fill="#fef3c7"/>
+  <path d="M400 242l80 138H320z" fill="#fde68a"/>
+  <circle cx="370" cy="300" r="16" fill="#dc2626"/>
+  <circle cx="445" cy="340" r="18" fill="#9a3412"/>
+  <circle cx="390" cy="380" r="14" fill="#b45309"/>
+  <circle cx="470" cy="275" r="14" fill="#ef4444"/>
+</svg>

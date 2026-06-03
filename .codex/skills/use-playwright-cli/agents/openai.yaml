@@ -1,0 +1,7 @@
+interface:
+  display_name: "Use Playwright CLI"
+  short_description: "Browser testing with Playwright CLI"
+  default_prompt: "Use $use-playwright-cli to test or explain a Playwright CLI flow in this repo."
+
+policy:
+  allow_implicit_invocation: true

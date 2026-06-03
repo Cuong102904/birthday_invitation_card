@@ -101,9 +101,9 @@ export function DateCardFlow() {
     step === steps.invitation
       ? 'Sinh nhật của em'
       : step === steps.cuisine
-        ? 'Chọn món tối nay'
+        ? 'Eiu muốn ăn gì tối nay'
         : step === steps.restaurant
-          ? 'Chọn quán thôi nào'
+          ? 'Quán eiu mún'
           : step === steps.time
             ? 'Chọn giờ đi date'
             : 'Mọi thứ đã sẵn sàng';
@@ -215,9 +215,6 @@ export function DateCardFlow() {
                             <h2 className="text-2xl font-black text-blush-900 sm:text-3xl">
                               Chọn giờ đi date
                             </h2>
-                            <p className="text-sm leading-6 text-blush-800/80">
-                              Bàn ăn tối đã đặt sẵn lúc 19h30, nên mình chọn một khung trước đó để đi chơi cho trọn buổi.
-                            </p>
                           </div>
                           <div className="grid gap-3 sm:grid-cols-2">
                             {timeSlots.map((time) => {

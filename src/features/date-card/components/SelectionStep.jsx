@@ -70,7 +70,7 @@ export function SelectionStep({
                     onClick={(event) => event.stopPropagation()}
                     className="inline-flex shrink-0 items-center gap-1 rounded-full bg-white/80 px-3 py-2 text-xs font-semibold text-blush-600 ring-1 ring-white/70 transition hover:bg-white"
                   >
-                    Mở link <ExternalLink className="h-3.5 w-3.5" />
+                    Link <ExternalLink className="h-3.5 w-3.5" />
                   </a>
                 ) : null}
               </div>

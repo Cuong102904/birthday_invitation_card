@@ -14,9 +14,9 @@ export function SuccessStep({ summaryText, copied, onCopy }) {
             <Heart className="h-3.5 w-3.5 fill-current" />
             Thành công
           </p>
-          <h2 className="text-3xl font-black text-blush-900">Đã chọn xong rồi đó</h2>
+          <h2 className="text-3xl font-black text-blush-900">Iu đã xong rùi đóa</h2>
           <p className="text-sm leading-6 text-blush-800/80">
-            Bạn có thể copy JSON bên dưới để gửi lại lựa chọn.
+            hihi giờ eiu đã chọn được lịch, 1 bước nữa eiu copy text dưới gửi aiu nhaaa
           </p>
         </div>
         <div className="w-full rounded-[1.5rem] bg-blush-950 p-4 text-left text-sm text-white shadow-2xl shadow-blush-500/20">
@@ -24,7 +24,7 @@ export function SuccessStep({ summaryText, copied, onCopy }) {
         </div>
         <Button onClick={onCopy} className="gap-2">
           <Copy className="h-4 w-4" />
-          {copied ? 'Đã copy' : 'Copy JSON'}
+          {copied ? 'Đã copy' : 'Hãy ấn tui'}
         </Button>
       </div>
     </Card>

@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Button } from '../../../components/ui/button';
 import { Card } from '../../../components/ui/card';
-import meoCamHoaImage from '../../../../meo-cam-hoa.jpg';
+import meoCamHoaImage from '../../../assets/images/meo-cam-hoa.jpg';
 
 export function InvitationStep({ onAccept, noButtonRef, noButtonPosition, onNoHover }) {
   return (
@@ -18,7 +18,7 @@ export function InvitationStep({ onAccept, noButtonRef, noButtonPosition, onNoHo
           />
         </div>
         <h1 className="max-w-xl text-3xl font-black leading-tight text-blush-900 sm:text-4xl">
-          Em có muốn cùng anh đón sinh nhật thật đáng nhớ không?
+          Liệu eiu có mún cùng aiu đón sinh nhật thiệc là đáng nhớ hum :3
         </h1>
         <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
           <Button onClick={onAccept} className="gap-2 px-7 py-3 text-base">

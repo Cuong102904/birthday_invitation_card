@@ -1,3 +1,8 @@
 export function formatSummary(summary) {
-  return JSON.stringify(summary, null, 2);
+  const lines = [
+    `Quán: ${summary?.restaurant ?? '-'}`,
+    `Giờ: ${summary?.time ?? '-'}`,
+  ];
+
+  return lines.join('\n');
 }
